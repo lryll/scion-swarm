@@ -1,0 +1,15 @@
+diff --git a/internal/protocol/version.go b/internal/protocol/version.go
+index 299c6fc..9fc7ef6 100644
+--- a/internal/protocol/version.go
++++ b/internal/protocol/version.go
+@@ -29,8 +29,8 @@ const (
+ // SupportedVersions lists the versions that the server supports
+ // must be in sorted descending order
+ var SupportedVersions = []VersionNumber{
+-	Version44,
+-	Version43,
++//	Version44,
++//	Version43,
+ 	Version39,
+ }
+
